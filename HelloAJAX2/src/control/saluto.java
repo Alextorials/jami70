@@ -26,7 +26,7 @@ public class saluto extends HttpServlet {
 		String user = request.getParameter("user");
 		PrintWriter out = response.getWriter();
 		if(user.equals("Giovanni")) {
-			out.print("Ciao " + user);
+			out.print("Hello " + user);
 		}
 		else {
 			out.print("Buongiorno " + user);
