@@ -29,7 +29,7 @@ public class saluto extends HttpServlet {
 			out.print("Ciao " + user);
 		}
 		else {
-			out.print("Hello " + user);
+			out.print("Buongiorno " + user);
 		}
 	}
 
